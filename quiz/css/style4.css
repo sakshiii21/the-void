@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+}
+.pic{
+    margin-top: 5rem;
+    
+}
+
+p{
+    margin-top: 2rem;
+    text-align: center;
+   padding:1rem;
+   font-size: larger;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: blueviolet;
+}
+.special a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bolder;
+    margin-top: 2rem;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 120px;
+    height: 30px;
+    background-color: blueviolet;
+    color: black;
+    border-radius: 30px;
+    text-align: center;
+    margin:0 47% ;
+
+}
+.navbar-pages{
+    background-color: #ccc3fb;
+    color: white;
+}
+ .navbar-brand{
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.nav-item{
+    padding:20px;
+}
+.navbar{
+    padding: 1.5rem 4rem 1.5rem;
+
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 600;
+}

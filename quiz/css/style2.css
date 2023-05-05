@@ -1,0 +1,92 @@
+body{
+   
+    background: url('photos/wp4.jpg');  
+}
+.link a{
+   
+ text-align: right;
+padding:4rem;
+text-decoration: none;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: blueviolet;
+font-weight: 600;
+}
+
+.heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding-inline-start: 1rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    color: blueviolet;
+    font-size: larger;
+}
+.para{
+   
+    /* margin-top: -rem; */
+    margin-left: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.special a{
+    padding-inline-start: 3rem;
+   align-items: center;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 200px;
+    font-size: larger;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 30px;
+}
+.special a{
+    display: flex;
+}
+.special a:hover{
+    cursor: pointer;
+    background-color: rgb(143, 20, 108);
+}
+.pic{
+    position: absolute;
+    left: 65%;
+    top: 18rem;
+
+}
+.navbar-pages{
+    background-color: #ccc3fb;
+    color: white;
+}
+ .navbar-brand{
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.nav-item{
+    padding:20px;
+}
+.navbar{
+    padding: 1.5rem 4rem 1.5rem;
+
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 600;
+}
+.text-para{
+    font-size: 1.5rem;
+    line-height: 1rem; 
+   font-weight: 300;
+}
+.getstarted-para{
+    margin-left: 8rem;
+    margin-top: 8rem;
+    font-size: 1.5rem;
+    line-height: 2rem; 
+   font-weight: 300;
+}
+.getstarted-para-link{
+    font-size: 1rem;
+}

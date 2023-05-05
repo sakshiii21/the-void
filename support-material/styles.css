@@ -1,0 +1,124 @@
+body{
+    text-align: center;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    color: blueviolet;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 3rem;
+     line-height: 1.5; 
+    font-weight: 900;
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #FFDCB6;
+}
+ /* sections */
+.navbar-pages{
+    background-color: #ccc3fb;
+    color: white;
+}
+ .navbar-brand{
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.nav-item{
+    padding:20px;
+}
+.navbar{
+    padding: 1.5rem 4rem 1.5rem;
+
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 600;
+}
+.resources{
+    /* margin-top: -rem; */
+    margin-left: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline;
+}
+
+
+.sub-resources{
+    background: blueviolet;
+    text-align: left;  
+    color: white;
+    margin: 3rem;
+    padding: 2rem;
+    margin-right: 40%;
+    border-radius: 25px;
+    position: relative;
+}
+.sub-resources:hover{
+    background-color: #ECC9EE;
+}
+.sub-resources a{
+    font-size: 1.9rem;
+     line-height: 1rem; 
+    font-weight: 700;
+    color: black;
+}
+.bottom-image{
+    position: absolute;
+    top: 80%;
+    left: 65%;
+}
+.sub-pages-headpara{
+    background: #ECC9EE;
+    padding: 3rem;
+    margin: 3% 10%;
+    font-size: 1.5rem;
+    border-radius: 25px;
+}
+.htl-main{
+    margin-bottom: 200px;
+}
+.health-topics-list{
+    text-align: left;
+    position: absolute;
+    background-color: blueviolet;
+    color: white;
+    margin: 3rem;
+    padding: 2rem;
+    border-radius: 25px;
+    width: 25%;
+    font-size: 1.1rem;
+}
+.health-topics-list a{
+    color: #ECC9EE;
+    line-height: 2rem;
+}
+.htl-left{    
+    margin-left: 10%;
+}
+.htl-right{
+    margin-left: 55%;
+}
+.mental-illnesses-lower-div h2{
+    font-size: 1.9rem;
+     line-height: 2rem; 
+    font-weight: 700;
+    color: blueviolet;
+}
+.htl-right h2{
+    color: #ECC9EE;
+}
+.mental-health-img{
+    left: 20%;
+    top: 120%;
+    height: 300px;
+    width: 300px;
+}
+.imm-help-div{
+    background: #ECC9EE;
+    padding: 3rem;
+    margin: 3% 10%;
+    font-size: 1.5rem;
+    border-radius: 25px;
+}

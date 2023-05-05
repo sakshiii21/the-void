@@ -1,0 +1,147 @@
+body{
+   font-family: 'Montserrat', sans-serif;
+   text-align: center;
+ }
+h1 , h2 , h3 , h4 , h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+/* heading */
+.big-heading{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 3.5rem;
+     line-height: 1.5; 
+    font-weight: 900;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* container */
+.container-fluid{
+    padding: 7% 15%;
+ }
+ /* sections */
+.colored-part{
+    background-color: #ccc3fb;
+    color: #fff;
+}
+.white-part{
+    background-color: white;
+}
+/* navbar */
+.navbar-brand{
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.nav-item{
+    padding:20px;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 600;
+}
+/* title */
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+.iphone-dog{    
+    position: absolute;
+    right: 20%;
+    height: 48%;
+}
+/* features */
+.features-heading{
+    font-size: 1.5rem;
+}
+.features-icon{
+    color: #ccc3fb;
+    font-size: 3rem;
+    margin-bottom:10px;
+}
+.features-icon:hover{
+    color: blueviolet;
+}
+#features{
+    position:relative;
+    z-index: 1;
+}
+.features-col{
+    padding: 4.5%;
+}
+.features-para{
+    color: #8f8f8f;
+    font-size: 1rem;
+}
+/* testimonial */
+#testimonials {
+    background-color: #ccc3fb;
+}
+.slider-image{
+    height: 550px;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ccc3fb;
+    padding-bottom: 5%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 40px;
+}
+/* skill */
+#skill{
+    padding: 100px;
+}
+.skill-row{
+    width: 50%;
+    margin: 50px auto;
+    line-height: 2;
+}
+.designing{
+    width: 25%;
+    float: left;
+    margin-right: 25px;
+    text-align: right;
+}
+.writing {
+    width: 25%;
+    float: right;
+    margin-left: 25px;    
+    text-align: left;
+}
+/* cta */
+.cta-download-button{
+    margin: 1.2%;
+}
+/* footer */
+.footer-text{
+    color: #8f8f8f;
+}
+.social-icons{
+    margin: 20px 10px;
+}
+@media only screen and (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .iphone-dog{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}

@@ -1,0 +1,91 @@
+form{
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+}
+div{
+    padding: 12px;
+}
+.Input-box input{
+    width: 300px;
+    height: 30px;
+    border-radius: 100px;
+    text-align: center; 
+}
+
+.forgot a{
+    text-decoration: none;
+}
+.forgot a:hover{
+    text-decoration: underline;
+}
+.Account a{
+    text-decoration: none;
+}
+.Account a:hover{
+    text-decoration: underline;
+}
+.button{
+    border-radius: 100px;
+}
+
+.first_button{
+    display: flex;
+    flex-direction: column;
+}
+.first_button input{
+    border: none;
+    border-radius: 100px;
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+    transition: background .5s;
+}
+.first_button input:hover{
+    background-color: rgba(0, 0, 0, .85);
+    cursor: pointer;
+}
+
+.other-btns a{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+      align-items: center;
+      justify-content: center;
+        /* margin-top: 1rem; */
+       
+
+}
+.other-btns a{
+        display: flex;
+        gap: 1.5rem;
+      align-items: center;
+      justify-content: center;
+      color: black;
+height: 50px;
+     border-radius: 100px;
+     transition: all .5s;
+      text-align: center;
+       
+
+}
+.Account{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.Input-box .checkbox  .forgot a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+.checkbox input:checked{
+  accent-color: blue;
+}

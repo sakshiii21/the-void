@@ -1,0 +1,71 @@
+body{
+    background-image: url(photos/wp4.jpg);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.sub-pages-headpara{
+    background: #ECC9EE;
+    padding: 3rem;
+    margin:3% 10% 0;
+    font-size: 1.5rem;
+    border-radius: 25px;
+} 
+.all-pics img{
+    width: 200px;
+   height: 150px;
+   border-radius: 20px;
+}
+.pic{
+    letter-spacing: 1rem;
+    position: absolute;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.an a{
+    color: black;
+    position: absolute;
+    letter-spacing: 1px;
+    text-decoration: none; 
+    margin-top: 9.5rem;
+   margin-left: -11rem;
+}
+.dt a{
+    color: black;
+    letter-spacing: 1px;
+    position: absolute;
+    text-decoration: none;
+    margin-top: 9.5rem;
+    margin-left: -11rem;
+}
+.an a:hover{
+    color: cornflowerblue;
+}
+.dt a:hover{
+    color: cornflowerblue;
+}
+.navbar-pages{
+    background-color: #ccc3fb;
+    color: white;
+}
+ .navbar-brand{
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.nav-item{
+    padding:20px;
+}
+.navbar{
+    padding: 1.5rem 4rem 1.5rem;
+
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 600;
+}
+
+
+

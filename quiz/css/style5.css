@@ -1,0 +1,88 @@
+.heading{
+    margin-left: 5rem;
+    padding:2rem;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 200px;
+    height: 5px;
+    background-color: rgb(170, 137, 201);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blueviolet;
+    border-radius: 30px;
+}
+.para{
+    margin-left: 6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blueviolet;
+    font-weight: 600;
+}
+.question{
+    margin-top: 2rem;
+  margin-left:5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+    background-color: rgb(170,137,201);
+    color: blueviolet;
+    border-radius: 30px;
+    width:  550px;
+    height: 70px;
+    
+}
+
+.button1 input{
+    border: none;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    width: 150px;
+    height: 40px;
+    background-color:rgb(170,137,201); 
+     border-radius: 10px;
+
+}
+.button2 input{
+    margin-top: 1rem;
+    margin-left: 6rem; 
+    border: none;
+    width: 150px;
+    height: 40px;
+    background-color:rgb(170,137,201); 
+     border-radius: 10px;
+     
+}
+.button3 input{
+    margin-top: 1rem;
+    margin-left: 6rem; 
+    border: none;
+    width: 250px;
+    height: 40px;
+    background-color:rgb(170,137,201); 
+     border-radius: 10px;
+}
+.button4 input{
+    display: inline;
+    margin-top: 1rem;
+    margin-left: 6rem; 
+    border: none;
+    width: 150px;
+    height: 40px;
+    background-color:rgb(170,137,201); 
+     border-radius: 10px;
+}
+
+.button1 input:hover{
+    background-color: rgb(122, 60, 199);
+}
+.button2 input:hover{
+    background-color: rgb(122, 60, 199);
+}
+.button3 input:hover{
+    background-color: rgb(122, 60, 199);
+}
+.button4 input:hover{
+    background-color: rgb(122, 60, 199);
+}
